@@ -4,7 +4,7 @@
 **SimonKendrick/SimonKendrick** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-Here are some ideas to get you started:
+Introductory Information
 
 - 🔭 I’m currently working on ... This profile page
 - 🌱 I’m currently learning ... Databases
