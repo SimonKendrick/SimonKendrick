@@ -4,7 +4,7 @@ body {
 }
 
 
-.page{
+.cover{
   display: flex;
   flex-direction: row;
 }
