@@ -10,8 +10,9 @@ body {
 }
 
 .content {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .column{
