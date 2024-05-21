@@ -1,6 +1,7 @@
 body {
 
   background-color: #D6E6FA;
+  margin:0px;
 }
 
 
@@ -8,7 +9,10 @@ body {
   display: flex;
   flex-direction: row;
 }
-
+.navigation{
+  background-color: #82b6f5;;
+  height:100vh;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -33,29 +37,37 @@ a:hover{
 
 .picture{
 
+
 }
 
 
 
 .text{
+  border:1px solid white;
+  border-radius: 100px;
+  background: #0f77f7;
+  padding:50px;
 
 }
 
-
-
-.about{
-
+.page{
+  flex-direction: column;
 
 }
 
-.travel{
+.about_page{
+  display:none;
 
-  
+}
+
+.travel_page{
+
+  display:none;
 }
 
 
-.hacking{
-
+.hacking_page{
+  display:none;
 }
 
 .kangaroo{
