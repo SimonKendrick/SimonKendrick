@@ -1,0 +1,13 @@
+body {
+  background-color: #D6E6FA;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.background_color{
+
+  background-color: #b6d5fa;
+
+}
