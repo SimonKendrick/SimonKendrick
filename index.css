@@ -1,13 +1,71 @@
 body {
+
   background-color: #D6E6FA;
 }
 
-.grid-container {
+
+.page{
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.picture{
+
+}
+
+
+
+.text{
+
+}
+
+
+
+.about{
+
+
+}
+
+.travel{
+
+  
+}
+
+
+.hacking{
+
+}
+
+.kangaroo{
+
+}
+
+
+.water{
+
+}
+
+
+.trees{
+
+}
+
+
 .background_color{
-
   background-color: #b6d5fa;
-
 }

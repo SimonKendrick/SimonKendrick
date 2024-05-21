@@ -1,79 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simon's Circle</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon's Circle</title>
+  <link rel="stylesheet" href="index.css">
+</head>
 
 <body>
 
+  <div class="page">
 
+    <div class="navigation">
 
-  <div class="grid-container">
+      <div class="contacts">
+        <div class="column">
+          <h1>Menu</h1>
+          <a href="about">About</a>
+          <div>
+          <a href="travel">Travel and Culture</a><span>&nbsp;</span>
+        </div>
+          <a href="hacker">Hacker</a>
+        </div>
 
+      </div>
+      <hr>
 
+      <div class="contacts">
+        <div class="column">
+          <h1>Online</h1>
 
+          <a href="https://github.com/SimonKendrick/SimonKendrick">Github</a>
+          <a href="https://www.facebook.com/simonKendrick1/">Facebook</a>
+          <a href="https://discord.com/channels/siken0001">Discord</a>
+        </div>
 
-    <div class="grid-item">
-
-      <h1>About</h1>
-
-      <p>Age: Postgrad student <br>
-        Height: 176 <br>
-        Ethnicity: Irish descent<br>
-        Nationality: Australian <br>
-        Education: UNSW Bachelor of Science <br>
-        UTS Bachelor of Business / Laws <br>
-        Favorate food: Healthy steak <br>
-      </p>
+      </div>
     </div>
 
-
-    <div class="grid-item" class={styles.background_color}>
-      <embed type="image/jpg" src="Kangaroo_beach.jpg" width="300" height="200">
-    </div>
+    <div class="content">
 
 
-    <div class="grid-item">
-      <h1>Travel and culture</h1>
+
+      <div class="text" name="about">
+
+        <h1>About</h1>
+
+        <p>Student: Postgrad <br>
+          Height: 176 <br>
+          Ethnicity: Irish descent<br>
+          Nationality: Australian <br>
+          Education: UNSW Bachelor of Science <br>
+          UTS Bachelor of Business / Laws <br>
+          Favorate food: Healthy steak <br>
+        </p>
+      </div>
 
 
-      <p>
-        Lived and worked in: <br>
-        Germany <br>
-        France <br>
-        Japan <br>
-        US <br>
+
+      <div class="picture" name="kangaroo">
+        <embed type="image/jpg" src="Kangaroo_beach.jpg" width="300" height="200">
+      </div>
 
 
-        Currently trying to learn Chinese!
-      </p>
-    </div>
+      <div class="text" name="travel">
+        <h1>Travel and culture</h1>
 
-    <div class="grid-item">
-      <embed type="image/jpg" src="Water-ripples.jpg" width="300" height="200">
+        <p>
+          Lived and worked in: <br>
+          Germany <br>
+          France <br>
+          Japan <br>
+          US <br>
 
-    </div>
+          Currently trying to learn Chinese!
+        </p>
+      </div>
 
+      <div class="picture" name="water">
+        <embed type="image/jpg" src="Water-ripples.jpg" width="300" height="200">
+      </div>
 
-    <div class="grid-item">
+      <div class="text" name="hacking"></div>
       <h1>Hacking</h1>
       <p>
         I like Java and I survived Algorithms in C. <br>
+
+        I am interested in network security and crypto currency.<br>
 
         I am getting into the current online tech stack React with Bootstrap, MUI and Tailwind.<br>
         Looking forward to being involved in CSESoc! <br>
       </p>
     </div>
 
-    <div class="grid-item">
+
+    <div class="picture" name="trees">
 
       <embed type="image/jpg" src="Future_city.jpg" width="300" height="200">
+
     </div>
-  </div>
+
+    <script src="./index.js"></script>
+
 </body>
-<script src="./index.js"></script>
+
+
+</div>
 
 </html>
