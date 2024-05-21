@@ -25,6 +25,12 @@ body {
   flex-direction: row;
 }
 
+
+
+a:hover{
+  background-color: #0f77f7;
+}
+
 .picture{
 
 }
