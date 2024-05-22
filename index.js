@@ -1,10 +1,29 @@
-const handleAboutClick = (event) => {
+
+const reset = (event) => {
 
     event.preventDefault();
 
-    aboutPageElement.style.display="flex";
+    aboutPageElement.style.display="none";
     travelPageElement.style.display="none";
     hackingPageElement.style.display="none";
+    landingPageElement.style.display="none";
+    
+    contentElement.style.backgroundImage = "url()";
+    contentElement.style.backgroundImage = "linear-gradient(to bottom, rgb(0 0 255 / 50%), rgb(255 255 0 / 50%))";
+
+
+}
+
+
+
+const handleAboutClick = (event) => {
+
+    reset(event);
+
+
+    aboutPageElement.style.display="flex";
+
+
 
     console.log(aboutAnchorElement);
 
@@ -12,23 +31,28 @@ const handleAboutClick = (event) => {
 
 const handleTravelClick = (event) => {
 
-    event.preventDefault();
+    reset(event);
 
-    aboutPageElement.style.display="none";
+
+
     travelPageElement.style.display="flex";
-    hackingPageElement.style.display="none";
+
 
     console.log(aboutAnchorElement);
 
 }
 const handleHackingClick = (event) => {
 
+
+    reset(event);
+
+
     event.preventDefault();
 
-    aboutPageElement.style.display="none";
-    travelPageElement.style.display="none";
+
     hackingPageElement.style.display="flex";
 
+    
     console.log(aboutAnchorElement);
 
 }
@@ -43,6 +67,10 @@ let hackingAnchorElement=document.getElementsByName("hacking_anchor")[0];
 hackingAnchorElement.addEventListener("click",handleHackingClick,false);
 
 
+
+let contentElement=document.getElementsByClassName("content")[0];
+
+let landingPageElement=document.getElementsByClassName("landing_page")[0];
 
 let aboutPageElement=document.getElementsByClassName("about_page")[0];
 

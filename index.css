@@ -2,20 +2,45 @@ body {
 
   background-color: #D6E6FA;
   margin:0px;
+  width:100vw;
+  height:100vh;
+  color:rgba(1, 1, 109, 0.979);
+  
+  font: 1rem "Fira Sans", serif;
+
 }
 
 
 .cover{
   display: flex;
-  flex-direction: row;
+
+
 }
+
 .navigation{
-  background-color: #82b6f5;;
+  background-color: #82b6f5;
   height:100vh;
+  width:260px;
+
 }
 .content {
   display: flex;
+
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width:90vw;
+
+
+
+
+
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 255 / 50%),
+    rgb(255 255 0 / 50%)
+  ), url("Bubles.png");
 
 }
 
@@ -36,32 +61,69 @@ a:hover{
 }
 
 .picture{
+  width:800px;
 
+  border-radius: 400px;
+  overflow: hidden;
 
 }
 
 
 
 .text{
-  border:1px solid white;
-  border-radius: 100px;
-  background: #0f77f7;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+  border:2px solid rgb(1, 1, 214);
+  border-radius: 200px;
+  background: #82b6f5;
   padding:50px;
+  width:700px;
 
 }
+.inner{
 
+  width:350px;
+  
+}
+
+.italic{
+  font: italic 1.2rem "Fira Sans", serif;
+}
+.italic-large{
+  font:  1.2rem "Fira Sans", serif;
+}
 .page{
   flex-direction: column;
+}
+
+.landing_page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+
+  font: 3rem "Fira Sans", serif;
 
 }
+.welcome{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-content: center;
+  align-items: center;
+}
+
 
 .about_page{
   display:none;
-
 }
 
 .travel_page{
-
   display:none;
 }
 
@@ -81,6 +143,7 @@ a:hover{
 
 
 .trees{
+
 
 }
 
