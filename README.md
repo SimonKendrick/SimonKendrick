@@ -6,12 +6,12 @@
 
 Introductory Information
 
-- 🔭 I’m currently working on ... This profile page
-- 🌱 I’m currently learning ... Databases
+- 🔭 I’m currently working on Solidity
+- 🌱 I’m currently learning Smart Contracts
 - 👯 I’m looking to collaborate on ... 
 - 🤔 I’m looking for help with ... 
 - 💬 Ask me about ... 
-- 📫 How to reach me: ...Email
-- 😄 Pronouns: ...He/Him
+- 📫 How to reach me: SimonKendrick2012@gmail.com
+- 😄 Pronouns: He/Him
 - ⚡ Fun fact: ... 
 
